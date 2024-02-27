@@ -1,0 +1,62 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  background-color: beige;
+}
+
+.form_wrapper {
+  padding: 20px;
+  width: 650px;
+}
+
+.wrapper {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+}
+
+.reports_wrapper {
+  width: 850px;
+}
+
+.report_title {
+  padding-bottom: 10px;
+}
+
+.radio_element {
+  display: flex;
+  align-items: center;
+}
+
+.btn_wrapper {
+  text-align: center;
+}
+
+.invalid-feedback {
+  margin-top: 15px;
+  color: #FF0000;
+}
+
+.succsess_message {
+  text-align: center;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: #008000;
+  margin-top: 20px !important;
+}
+
+.failed_message {
+  text-align: center;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: #FF0000;
+  margin-top: 20px !important;
+}
